@@ -1,0 +1,64 @@
+import @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap')
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+
+/* html, body {
+    overflow: hidden; */
+/* } */
+
+#header {
+    display:flex;
+    border: 5px #F7A623 dotted;
+    padding: 10px;
+    justify-content: center;
+    
+}
+#container {
+    background-color: white;
+    border: solid black 1px;
+    display: flex;
+    height: 90vh;
+    width: 90vh;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-self: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    
+}
+
+
+.gridRow {
+    display: flex;
+    flex: 1;
+  
+}
+
+.gridCol {
+    display: flex;
+    border: 1px black solid;
+    flex: 1;
+    cursor: pointer;
+    
+}
+
+button {
+    font-family: Sixtyfour;
+    border: black solid;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 12px;
+    background-color: azure;
+}
